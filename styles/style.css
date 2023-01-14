@@ -25,7 +25,7 @@
 /* second header style */
 .second-header{
     margin-top: 145px;
-    /* display: flex; */
+    display: flex;
 }
 .second-header-information{
     margin-left: 120px;
@@ -52,6 +52,16 @@
     width: 440px;
     height: 414px;
     position: relative;
-    left: 1000px;
-    top: -300px;
+    left: 400px;
+    top: -100px;
+    
+}
+hr{
+    color: rgb(17, 16, 16);
+}
+/* logos section */
+.logos img{
+    position: relative;
+   left: 250px;
+   padding: 30px;
 }
