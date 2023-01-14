@@ -115,7 +115,7 @@ hr{
     
 }
 .rating i{
-    background-color: #FB8200;
+    color: #FB8200;
 }
 .rating-details{
     font-size: 14px;
@@ -145,4 +145,76 @@ hr{
     color: #6C6C6C;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+/* footer style */
+.footer{
+    background-color: black;
+    margin-top: 150px;
+}
+.footer-details h2 {
+    font-size: 24px;
+    color: white;
+    margin-left: 660px;
+    padding-top: 50px;
+}
+
+.footer-details p{
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-left: 660px;
+}
+.footer-icons i{
+    color: #FFFFFF;
+    
+}
+#insta{
+    margin-left: 660px;
+}
+#fb, #twit, #yt{
+    margin-left: 20px;
+}
+
+/* Responsive for mobile device */
+@media screen and (max-width: 576px) {
+    .header-menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .second-header-img img{
+        width: 70%;
+        height: 70%;
+        left: 90px;
+
+    }
+    .logos img{
+        position: relative;
+        left: 50px;
+    }
+    hr{
+        margin-top: 30px;
+    }
+    .popular-collection{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 50px;
+    }
+    .popular-collection-title{
+        margin-left: 50px;
+    }
+    .feature{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature-details{
+        margin: 60px 25px;
+    }
+
+}
+
+ footer{
+    display: none;
 }
