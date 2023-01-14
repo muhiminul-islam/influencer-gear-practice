@@ -1,3 +1,7 @@
+/* font add */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -64,4 +68,57 @@ hr{
     position: relative;
    left: 250px;
    padding: 30px;
+}
+/* popular collection style */
+.popular-collection-title{
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-left: 650px;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 196px;
+    grid-row-gap: 30px;
+}
+.collection-details{
+    width: 329px;
+    height: 476px;
+    padding: 17px 15px 203px 14px;
+    background: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.collection-details h2{
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+}
+.collection-details h4{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 6px;
+}
+.collection-details img{
+    border-radius: 5px;
+}
+.rating{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    
+}
+.rating i{
+    background-color: #FB8200;
+}
+.rating-details{
+    font-size: 14px;
+    color: #5E6366;
+}
+.collection-details-description{
+    font-size: 14px;
+    color: #787885;
+    margin-top: 5px;
 }
