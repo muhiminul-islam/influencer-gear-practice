@@ -53,7 +53,7 @@ body{
     border: none;
 }
 .second-header-img img{
-    width: 440px;
+    width: 500px;
     height: 414px;
     position: relative;
     left: 450px;
@@ -210,11 +210,15 @@ hr{
         flex-direction: column-reverse;
     }
     .feature-details{
-        margin: 60px 25px;
+        margin: 60px 75px;
+    }
+    .feature-img img{
+        margin-top: -80px;
+        margin-left: 75px;
+        width: 75%;
+    }
+    .footer{
+        width: 100%;
     }
 
-}
-
- footer{
-    display: none;
 }
